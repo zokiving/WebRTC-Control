@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WebRTC Control</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="icons/48.png" width="30" height="30" alt="">
+    <h1>WebRTC Control</h1>
+  </header>
+  <main>
+    <section class="status-card" aria-labelledby="status-title" aria-busy="true" id="card">
+      <div class="status-heading"><span id="dot" class="dot" aria-hidden="true"></span><h2 id="status-title" data-i18n="loadingTitle">Checking…</h2></div>
+      <p id="status-description" data-i18n="loadingDescription">Checking the browser's WebRTC policy.</p>
+      <div class="actions">
+        <button id="enable" class="primary" data-i18n="enable" disabled>Enable restriction</button>
+        <button id="restore" class="secondary" data-i18n="restore" disabled>Restore settings</button>
+      </div>
+    </section>
+    <p id="notice" class="notice" role="status" aria-live="polite"></p>
+    <p id="error" class="error" role="alert" hidden></p>
+    <button id="retry" class="retry" data-i18n="retry" hidden>Check again</button>
+    <p class="tip" data-i18n="tip">Non-proxied UDP only · Reload pages after switching</p>
+    <details class="explanation">
+      <summary data-i18n="detailsTitle">How it works</summary>
+      <p data-i18n="detailsLimits">This does not fully disable WebRTC or guarantee that all IP addresses are hidden. Calls and file transfers may be affected.</p>
+      <p data-i18n="detailsRestore">Restoring only removes this extension's changes. The browser's underlying policy still applies.</p>
+    </details>
+  </main>
+  <footer><span class="small-dot" aria-hidden="true"></span><span data-i18n="privacy">Runs locally · No browsing history collected</span></footer>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

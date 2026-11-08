@@ -1,0 +1,18 @@
+WebRTC Control is a lightweight browser extension that helps you manage the policy for non-proxied UDP traffic used by WebRTC. A simple popup displays the active policy and lets you enable the restriction or restore your original browser settings.
+
+Features
+• Restrict non-proxied UDP traffic used by WebRTC with one click.
+• View the active policy and available actions.
+• Restore your original settings by removing only this extension's override.
+• Keep the active setting across browser restarts.
+• Automatically match the browser language, with Simplified Chinese, Traditional Chinese, and English interfaces.
+• See a notice when another extension or browser management policy controls the setting.
+
+Privacy
+The extension runs locally. It does not collect browsing history, read web page content, or transmit data externally. It uses only the privacy permission to read and modify the WebRTC connection policy. No account is required.
+
+How to use
+Click the toolbar icon and select Enable restriction. To undo the change, select Restore settings. Reload the relevant web pages after switching so new connections use the updated policy.
+
+Limitations
+This extension restricts non-proxied UDP; it does not completely disable WebRTC or guarantee that all IP addresses are hidden. Other permitted connection methods may still work. Enabling the restriction may affect voice calls, video calls, or file transfers on some websites.

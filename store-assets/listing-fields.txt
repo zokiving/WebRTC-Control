@@ -1,0 +1,21 @@
+Extension name (all languages): WebRTC Control
+
+Chinese (China)
+Description: description-zh-CN.txt
+Search terms (enter separately): WebRTC; 隐私; UDP; 连接策略
+Short description (from manifest): 一键限制 WebRTC 非代理 UDP，查看实际状态，并恢复浏览器原设置。
+
+Chinese (Taiwan)
+Description: description-zh-TW.txt
+Search terms (enter separately): WebRTC; 隱私; UDP; 連線政策
+Short description (from manifest): 一鍵限制 WebRTC 非代理 UDP、檢視實際狀態，並還原瀏覽器原有設定。
+
+English
+Description: description-en.txt
+Search terms (enter separately): WebRTC; privacy; UDP; connection settings
+Short description (from manifest): Restrict non-proxied WebRTC UDP, view the active policy, and restore your original settings.
+
+Logo (all languages): logo-300.png
+Promotional images and screenshots: optional; leave blank if not prepared.
+
+These files are store listing materials. Upload the extension ZIP from dist/ as the extension package, and upload the logo separately in each store listing. Store materials are not part of the runtime ZIP.

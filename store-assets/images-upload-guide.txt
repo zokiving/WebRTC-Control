@@ -1,0 +1,14 @@
+图片上传说明
+
+每种语言目录各有三张图片：
+- promo-440x280.png：上传到 Small promotional tile / 小型宣传贴片。
+- screen-01-original-1280x800.png：上传到 Screenshot/s / 截图。
+- screen-02-restricted-1280x800.png：上传到 Screenshot/s / 截图。
+
+zh-CN 对应简体中文，zh-TW 对应繁体中文，en 对应英文。
+两张界面图依据当前插件界面和文案绘制，已标明「界面示意」，不是浏览器会话的原始截图。
+
+Extension logo / 扩展标志仍使用 logo-300.png。
+这些素材不放入插件运行安装包，不影响已上传的插件功能。
+
+宣传图和界面展示图已导出为无透明通道的 24 位 PNG，可用于 Chrome 商店对应上传框。Chrome 商店图标使用项目 icons/128.png，Edge 商店图标使用 logo-300.png。

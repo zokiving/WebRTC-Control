@@ -1,0 +1,17 @@
+# Local dependencies and editor / OS files
+node_modules/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary packaging files (keep the release ZIP in dist)
+.package-check-*/
+dist/.package-*.zip
