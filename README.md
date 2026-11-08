@@ -4,9 +4,9 @@
 
 一个轻量的 Chrome / Edge 扩展，用于一键限制 WebRTC 非代理 UDP、查看当前连接策略，并恢复浏览器原有设置。
 
-[从 Edge 扩展商店安装](https://microsoftedge.microsoft.com/addons/detail/webrtc-control/gaednpknajiajjmnmiolffcbnoggdhcc) · [下载 v1.0.1 安装包](dist/WebRTC-Control-1.0.1.zip) · [安装方法](#安装) · [隐私与权限](#隐私与权限) · [开发与打包](#开发与打包)
+[从 Chrome 网上应用店安装](https://chromewebstore.google.com/detail/webrtc-control/lioplaeobalfhkclohhamddegbdpaefb) · [从 Edge 扩展商店安装](https://microsoftedge.microsoft.com/addons/detail/webrtc-control/gaednpknajiajjmnmiolffcbnoggdhcc) · [下载 v1.0.1 安装包](dist/WebRTC-Control-1.0.1.zip) · [安装方法](#安装) · [隐私与权限](#隐私与权限) · [开发与打包](#开发与打包)
 
-**发布状态：** Edge 扩展商店已上架；Chrome 网上应用店正在发布中，暂未提供商店安装链接。
+**发布状态：** Chrome 网上应用店和 Edge 扩展商店均已上架，可通过上方对应链接安装。
 
 > 本扩展限制的是 WebRTC 的非代理 UDP 连接，不会彻底关闭 WebRTC，也不保证隐藏所有 IP 地址。
 
@@ -32,7 +32,7 @@
 ### 从扩展商店安装
 
 - **Microsoft Edge**：打开 [WebRTC Control 商店页面](https://microsoftedge.microsoft.com/addons/detail/webrtc-control/gaednpknajiajjmnmiolffcbnoggdhcc)，点击「获取」并确认添加扩展。
-- **Google Chrome**：Chrome 网上应用店正在发布中。商店上架前，可以按下方步骤从安装包或源码加载。
+- **Google Chrome**：打开 [WebRTC Control 商店页面](https://chromewebstore.google.com/detail/webrtc-control/lioplaeobalfhkclohhamddegbdpaefb)，点击「添加至 Chrome」并确认添加扩展。
 
 ### 从安装包加载
 
